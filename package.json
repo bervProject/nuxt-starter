@@ -27,7 +27,7 @@
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.3.5",
-    "core-js": "^3.6.5",
+    "core-js": "^3.8.3",
     "nuxt": "^2.14.6",
     "nuxt-buefy": "^0.4.3"
   },
