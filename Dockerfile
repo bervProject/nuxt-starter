@@ -1,4 +1,5 @@
 FROM node:lts-alpine
+RUN apk add g++ make python
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn --frozen-lockfile
