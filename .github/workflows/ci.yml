@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node: [14, 16]
+        node: ['16.x', '17.x']
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
       - name: Setup node env 🏗
         uses: actions/setup-node@v3
         with:
@@ -55,7 +55,6 @@ jobs:
             docker build . --file Dockerfile
           fi
   docker-push:
-    # Ensure test job passes before pushing image.
     needs: ci
     runs-on: ubuntu-20.04
     if: github.event_name == 'push'
