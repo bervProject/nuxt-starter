@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt/config';
+import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -35,4 +35,4 @@ export default defineNuxtConfig({
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-});
+})
