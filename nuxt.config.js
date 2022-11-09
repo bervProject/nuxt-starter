@@ -1,4 +1,6 @@
-export default {
+import { defineNuxtConfig } from 'nuxt/config'
+
+export default defineNuxtConfig({
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'nuxt-starter',
@@ -19,32 +21,18 @@ export default {
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module',
-  ],
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/buefy
-    'nuxt-buefy',
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    'nuxt-windicss',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
 
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
-
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-}
+})
