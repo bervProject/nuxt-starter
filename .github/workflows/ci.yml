@@ -12,7 +12,7 @@ env:
   IMAGE_NAME: nuxt-starter
 jobs:
   ci:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         node: ['16.x', '18.x']
@@ -36,13 +36,15 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install dependencies 👨🏻‍💻
         run: yarn --frozen-lockfile
+      - name: Prepare
+        run: npx nuxi prepare
       - name: Run linter 👀
         run: yarn lint
       - name: Run tests 🧪
         run: yarn test
   docker-test:
     needs: ci
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     if: github.event_name == 'pull_request'
     steps:
       - uses: actions/checkout@v2
@@ -56,7 +58,7 @@ jobs:
           fi
   docker-push:
     needs: ci
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v2
