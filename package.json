@@ -50,7 +50,7 @@
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
     "lint-staged": "^13.0.4",
-    "nuxt-windicss": "^2.5.3",
+    "nuxt-windicss": "^2.6.0",
     "postcss-html": "^1.5.0",
     "prettier": "^2.8.0",
     "ts-jest": "^29.0.3",
