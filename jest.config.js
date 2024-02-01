@@ -6,7 +6,15 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'js', 'vue', 'json'],
   transform: {
-    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.ts$': [
+      'ts-jest',
+      {
+        useESM: true,
+        tsconfig: {
+          verbatimModuleSyntax: false,
+        },
+      },
+    ],
     '^.+\\.js$': 'babel-jest',
     '^.+\\.vue$': '@vue/vue3-jest',
   },
