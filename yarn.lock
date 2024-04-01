@@ -4187,13 +4187,13 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.3.tgz#01d54b32b9796c85c853c670d9395a813f23a8c2"
   integrity sha512-rIwlkkP1n4uKrRzivAKPZIEkHiuwY5mmhMJ2nZKCBLz8lTUlE73rQh4n1OnnMurXt1vcUNyH4ZPfdh8QweTjpQ==
 
-"@vue/test-utils@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.4.4.tgz#36ba31f90332fb25a5ab2e553652c21d33057094"
-  integrity sha512-8jkRxz8pNhClAf4Co4ZrpAoFISdvT3nuSkUlY6Ys6rmTpw3DMWG/X3mw3gQ7QJzgCZO9f+zuE2kW57fi09MW7Q==
+"@vue/test-utils@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.4.5.tgz#010aa4debe6602d83dc75f233b397092742105a2"
+  integrity sha512-oo2u7vktOyKUked36R93NB7mg2B+N7Plr8lxp2JBGwr18ch6EggFjixSCdIVVLkT6Qr0z359Xvnafc9dcKyDUg==
   dependencies:
     js-beautify "^1.14.9"
-    vue-component-type-helpers "^1.8.21"
+    vue-component-type-helpers "^2.0.0"
 
 "@vue/vue3-jest@^29.2.6":
   version "29.2.6"
@@ -13388,10 +13388,10 @@ vue-bundle-renderer@^2.0.0:
   dependencies:
     ufo "^1.2.0"
 
-vue-component-type-helpers@^1.8.21:
-  version "1.8.24"
-  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-1.8.24.tgz#702d4bc4421d42d5fcbe0412e5f316110871f585"
-  integrity sha512-lqWs/7fdRXoSBAlbouHBX+LNuaY6gI9xWW34m/ZIz9zVPYHEyw0b2/zaCBwlKx0NtKTeF/6pOpvrxVkh7nhIYg==
+vue-component-type-helpers@^2.0.0:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-2.0.7.tgz#f142e82440da61fa81671ac2f35fd87146248897"
+  integrity sha512-7e12Evdll7JcTIocojgnCgwocX4WzIYStGClBQ+QuWPinZo/vQolv2EMq4a3lg16TKfwWafLimG77bxb56UauA==
 
 vue-demi@>=0.14.6:
   version "0.14.6"
