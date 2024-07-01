@@ -30,7 +30,7 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@nuxt/test-utils-edge": "^3.0.0-27507520.e006c56",
-    "@nuxt/types": "^2.17.3",
+    "@nuxt/types": "^2.18.1",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
