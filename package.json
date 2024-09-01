@@ -52,7 +52,7 @@
     "nuxt-windicss": "^3.0.1",
     "postcss-html": "^1.7.0",
     "prettier": "^3.3.3",
-    "ts-jest": "^29.2.3",
+    "ts-jest": "^29.2.5",
     "typescript": "^5.5.4",
     "vue-jest": "^3.0.7"
   },
