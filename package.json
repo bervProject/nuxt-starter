@@ -26,7 +26,7 @@
     "nuxt": "^3.15.4"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-env": "^7.26.9",
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.7.1",
     "@nuxt/test-utils-edge": "^3.0.0-27507520.e006c56",
