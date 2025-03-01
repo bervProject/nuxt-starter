@@ -51,7 +51,7 @@
     "lint-staged": "^15.4.3",
     "nuxt-windicss": "^3.0.1",
     "postcss-html": "^1.8.0",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.2",
     "ts-jest": "^29.2.6",
     "typescript": "^5.7.3",
     "vue-jest": "^3.0.7"
