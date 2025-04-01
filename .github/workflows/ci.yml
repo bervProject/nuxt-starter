@@ -42,6 +42,13 @@ jobs:
         run: yarn lint
       - name: Run tests 🧪
         run: yarn test
+      - name: Generate Static
+        run: yarn generate
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_dir: ./dist
   docker-test:
     needs: ci
     runs-on: ubuntu-24.04
