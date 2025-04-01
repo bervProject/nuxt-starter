@@ -46,7 +46,7 @@ jobs:
         run: yarn generate
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: ${{ matrix.node == '20.x' }}
+        if: ${{ github.event_name == 'push' && matrix.node == '20.x' }}
         with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
          publish_dir: ./dist
