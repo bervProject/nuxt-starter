@@ -30,3 +30,17 @@ updates:
     prefix: fix
     prefix-development: chore
     include: scope
+- package-ecosystem: docker
+  directory: '/'
+  schedule:
+    interval: monthly
+    time: '00:00'
+  open-pull-requests-limit: 10
+  reviewers:
+    - berviantoleo
+  assignees:
+    - berviantoleo
+  commit-message:
+    prefix: fix
+    prefix-development: chore
+    include: scope
