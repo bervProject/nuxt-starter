@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.5.1",
-    "nuxt": "^3.16.1"
+    "nuxt": "^3.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
