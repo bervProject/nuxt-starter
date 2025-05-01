@@ -22,7 +22,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^3.4.0",
+    "@nuxt/content": "^3.5.1",
     "nuxt": "^3.16.1"
   },
   "devDependencies": {
