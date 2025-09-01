@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
-    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-env": "^7.28.3",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@nuxt/test-utils-edge": "^3.8.0-28275051.7cb8d079",
