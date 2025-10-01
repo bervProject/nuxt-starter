@@ -57,7 +57,7 @@
     "ts-jest": "^29.4.1",
     "typescript": "^5.8.3",
     "vite": "^6.3.6",
-    "vue": "^3.5.20"
+    "vue": "^3.5.22"
   },
   "packageManager": "yarn@1.22.19"
 }
