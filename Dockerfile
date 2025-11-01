@@ -1,4 +1,4 @@
-FROM node:24-alpine
+FROM node:25-alpine
 RUN apk add g++ make python3
 WORKDIR /app
 COPY package.json yarn.lock ./
