@@ -22,7 +22,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^3.8.2",
+    "@nuxt/content": "^3.10.0",
     "better-sqlite3": "^12.5.0",
     "nuxt": "^4.2.2"
   },
