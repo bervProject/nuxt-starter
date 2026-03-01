@@ -52,7 +52,7 @@
     "jest-environment-jsdom": "^30.2.0",
     "lint-staged": "^16.2.7",
     "nuxt-windicss": "^3.0.1",
-    "postcss-html": "^1.8.0",
+    "postcss-html": "^1.8.1",
     "prettier": "^3.8.1",
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3",
