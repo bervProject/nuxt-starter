@@ -12679,9 +12679,9 @@ sprintf-js@~1.0.2:
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
 srvx@^0.11.2:
-  version "0.11.8"
-  resolved "https://registry.yarnpkg.com/srvx/-/srvx-0.11.8.tgz#43d23b57f5385697ed2152ee42a3859d056b005a"
-  integrity sha512-2n9t0YnAXPJjinytvxccNgs7rOA5gmE7Wowt/8Dy2dx2fDC6sBhfBpbrCvjYKALlVukPS/Uq3QwkolKNa7P/2Q==
+  version "0.11.13"
+  resolved "https://registry.yarnpkg.com/srvx/-/srvx-0.11.13.tgz#cc77a98cb9a459c34f75ee4345bd0eef9f613a54"
+  integrity sha512-oknN6qduuMPafxKtHucUeG32Q963pjriA5g3/Bl05cwEsUe5VVbIU4qR9LrALHbipSCyBe+VmfDGGydqazDRkw==
 
 stack-utils@^2.0.3, stack-utils@^2.0.6:
   version "2.0.6"
