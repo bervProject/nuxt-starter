@@ -30,7 +30,7 @@
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.3",
     "@commitlint/cli": "^20.5.0",
-    "@commitlint/config-conventional": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.3",
     "@nuxt/test-utils-edge": "^3.8.0-28275051.7cb8d079",
     "@nuxt/types": "^2.18.1",
     "@nuxtjs/eslint-config": "^12.0.0",
