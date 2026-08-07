@@ -24,7 +24,7 @@
   "dependencies": {
     "@nuxt/content": "^3.14.0",
     "better-sqlite3": "^12.11.1",
-    "nuxt": "^4.4.8"
+    "nuxt": "^4.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
