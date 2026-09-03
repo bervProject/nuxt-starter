@@ -1,0 +1,1 @@
+import{E as e,F as t,N as n,t as r}from"#entry";var i={};function a(r,i){return n(),e(`th`,null,[t(r.$slots,`default`)])}var o=Object.assign(r(i,[[`render`,a]]),{__name:`ProseTh`});export{o as default};
