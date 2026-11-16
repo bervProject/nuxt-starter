@@ -1,0 +1,1 @@
+import{g as e,p as t,t as n,v as r}from"#entry";var i={};function a(n,i){return e(),t(`strong`,null,[r(n.$slots,`default`)])}var o=Object.assign(n(i,[[`render`,a]]),{__name:`ProseStrong`});export{o as default};
